@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/mystyle.css') }}"/>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,700|Varela+Round" rel="stylesheet">
+    <title>Orbit Mapper</title>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>
+          Sample thing 1
+        </li>
+        <li>
+          Sample thing 2
+        </li>
+        <li>
+          Sample thing 3
+        </li>
+        <li>
+          Sample thing 4
+        </li>
+      </ul>
+    </header>
+    <div class="welcome">
+      <h1><strong>Welcome</strong> To Orbit Mapper</h1>
+      <h2>This web app can take any launch planet, landing planet, and launch date, and find and plot the optimal trajectory</h2>
+  </div>
+  <div class="question">
+    <h4>Please Select a Launching Planet</h4>
+    <div class="answer">
+      <button>Mercury</button>
+    </div>
+    <div class="answer">
+      <button>Venus</button>
+    </div>
+    <div class="answer">
+      <button>Earth</button>
+    </div>
+    <div class="answer">
+      <button>Mars</button>
+    </div>
+    <div class="answer">
+      <button>Jupiter</button>
+    </div>
+    <div class="answer">
+      <button>Saturn</button>
+    </div>
+    <div class="answer">
+      <button>Uranus</button>
+    </div>
+    <div class="answer">
+      <button>Neptune</button>
+    </div>
+  </div>
+  <div class="question">
+    <h4>Please Select a Landing Planet</h4>
+    <div class="answer">
+      <button>Mercury</button>
+    </div>
+    <div class="answer">
+      <button>Venus</button>
+    </div>
+    <div class="answer">
+      <button>Earth</button>
+    </div>
+    <div class="answer">
+      <button>Mars</button>
+    </div>
+    <div class="answer">
+      <button>Jupiter</button>
+    </div>
+    <div class="answer">
+      <button>Saturn</button>
+    </div>
+    <div class="answer">
+      <button>Uranus</button>
+    </div>
+    <div class="answer">
+      <button>Neptune</button>
+    </div>
+  </div>
+  <div class = "question">
+    <h4>Please Select Launch Date</h4>
+    <div class="answer">
+      <select>
+        <option value="">January</option>
+        <option value="">February</option>
+        <option value="">March</option>
+        <option value="">April</option>
+        <option value="">May</option>
+        <option value="">June</option>
+        <option value="">July</option>
+        <option value="">August</option>
+        <option value="">Spetember</option>
+        <option value="">October</option>
+        <option value="">November</option>
+        <option value="">December</option>
+      </select>
+    </div>
+    <div class="answer">
+      <select>
+        <script language="javascript" type="text/javascript">
+          for(var d=1;d<=31;d++)
+          {
+            document.write("<option>"+d+"</option>");
+          }
+        </script>
+      </select>
+    </div>
+    <div class="answer">
+      <select>
+        <option value="">2020</option>
+        <option value="">2021</option>
+        <option value="">2022</option>
+        <option value="">2023</option>
+        <option value="">2024</option>
+        <option value="">2025</option>
+      </select>
+    </div>
+    <div class="go">
+      <button type = "button">Go</button>
+    </div>
+  </div>
+  <footer>
+    <h3>Have Fun!</h3>
+  </footer>
+  </body>
+</html>
